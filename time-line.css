@@ -1,0 +1,92 @@
+.time-box{
+	margin-top:200px;
+}
+.time-line{
+	width:850px;
+	margin: auto;
+
+}
+.scale{
+	width: auto;
+	height: 50px;
+	border: 1px solid #ccc;
+	display: grid;
+	grid-template-columns: repeat(168, 5px);
+}
+.scale-box{
+	height: 48px;
+	width: 100%;
+	background: #008f95;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 13px;
+	
+
+}
+.time-points{
+	width: 850px;
+	display: grid;
+	grid-template-columns: repeat(168, 5px);
+	height: 20px;
+	margin: 0 auto;
+	border-right: 1px solid #ccc;
+}
+.time-points>div{
+	height: 20px;
+	width: 120px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+	font-size:14px;
+	color: #404040;
+}
+#first-box{
+	grid-column: 36/48;
+}
+#second-box{
+	grid-column: 106/118;
+}
+.sunday{
+	grid-column: 1/24;
+	
+}
+.monday{
+	grid-column: 25/48;
+	
+}
+.tuesday{
+	grid-column: 49/72;
+	
+}
+.wednesday{
+	grid-column: 73/96;
+	
+}
+.thursday{
+	grid-column: 97/120;
+	
+}
+.friday{
+	grid-column: 121/144;
+	
+}
+.saturday{
+	grid-column: 145/168;
+	
+}
+#dynamic-points{
+	width: 850px;
+	display: grid;
+	grid-template-columns: repeat(168, 5px);
+	height: 20px;
+	margin: 0 auto;
+}
+.newpoint input[type = "submit"]{
+	padding: 30px !important;
+	font-size: 16px;
+}
+.input-append {
+	text-align: center;
+	height: 30px;
+}

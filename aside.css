@@ -1,0 +1,60 @@
+.aside{
+    float: right;
+    grid-row: 2;
+    grid-column: 2;
+    box-shadow: 0 0 3px 2px #ddd;
+    border-radius:3px;
+
+}
+.doctor-info{
+	margin: 10px;
+	align-content: center;
+	color: #404040;
+}
+.doctor-avatar{
+	height: auto;
+	width: 200px;
+	margin: 20px auto 0 auto;
+	
+}
+.doctor-avatar>img{
+	margin: 10px auto;
+	width: 200px;
+	border-radius: 10px;
+	border: 2px solid #ddd;
+	box-shadow: 0 0 3px 2px #ddd;
+}
+.doctor-description{
+
+}
+.doctor-description ul{
+	margin: 0 10px;
+	list-style: none;
+	line-height: 1.67em;
+	font-size: 14px;
+}
+.doctor-description h4{
+	margin: 0;
+	text-align: center;
+	
+}
+.doctor-description ul li{
+	
+	padding: 0 10px
+}
+.doctor-description img{
+	height: 17px;
+	margin-bottom:-3px; 
+
+}
+.doctor-description input[type="button"]{
+	display: block;
+	border-radius: 3px;
+	border:none;
+	background-color: #008f95;
+	margin: auto;
+	width: 160px;
+	padding: 5px;
+	font-size: 15px;
+	box-shadow: 0 0 3px 2px #ddd;
+}

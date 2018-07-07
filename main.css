@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Arial";
+}
+body{
+    align-content: center;
+}
+.main{
+	grid-column: 1/2;
+	grid-row:2;
+}
+.container{
+    margin: 0 auto;
+    display: grid;
+    position: relative;
+    max-width: 1200px;
+    grid-template-columns:  minmax(300px , 900px) 290px;
+    grid-template-rows: repeat(3, minmax(100px, max-content));
+    grid-gap: 10px; 
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0px;
+}

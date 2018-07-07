@@ -1,0 +1,42 @@
+#table table {
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0 5px;
+
+}
+#table th {
+  border: 5px solid #fff;
+  background: #008f95;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+ 
+}
+#table th, td {
+  border: none;
+
+
+
+}
+#table td {
+  background: #fff;
+  color: #404040
+  margin: 10px;
+  border: 5px solid #fff;
+
+}
+
+#table button {
+  color: #fff;
+  padding: 10px 5px;
+  font-weight: bold;
+  background-color: #e9b000;
+  border: none;
+
+}
+#table button:hover{
+  background-color: #f26321;
+}
